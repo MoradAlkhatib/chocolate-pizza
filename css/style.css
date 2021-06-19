@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 901px;
+    margin: auto;
+}
+
+hr{
+    height: 15px;
+    background: url(../image/hr-img.png);
+}
+
+header{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    
+    
+}
+main{
+    margin-top: 50px;
+}
+.logo h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.socialMedia :nth-child(7){
+    margin-left: 10px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    margin-right: 10px;
+}
+.coco h2{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 5px;
+}
+.chocolate{
+    display: flex;
+    justify-content: space-between;
+    
+}
+p {
+    color: dimgrey;
+}
+.print{
+    display: flex;
+   
+      
+}
+.print img{
+    width: 20px;
+    height: 20px;
+}
+.picchoco img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.paregraph p{
+    text-indent: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.list{
+    background: url(../image/list-bg.png);
+    display: flex;
+    margin-bottom: 40px;
+    height: 305px;
+    
+    
+    
+}
+.firslist{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 35px;
+  margin-top: 43px;
+}
+.list ul li{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: olive;
+    font-weight: 600;
+    /* font-family: 'Dela Gothic One', cursive; */
+font-family: 'Source Code Pro', monospace;
+/* font-family: 'Staatliches', cursive; */
+}
+.secondlist{
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .footer1{
+      display: flex;
+       align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+  }
+  #de{
+      margin-left: -3rem;
+  }
+  .footer1 button{
+      padding: 15px 25px;
+      background-color: rgb(230, 104, 46);
+      
+  }
+
+  .footer2{
+      text-align: center;
+      margin-top: 60px;
+      border: 0;
+  }
+  .footer1 div :nth-child(1){
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-weight: 700;
+  }
+  .footer2 :nth-child(2){
+      margin-top: 40px;
+  }
